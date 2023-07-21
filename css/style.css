@@ -35,9 +35,9 @@ body {
 .container {
     width: 100%;
     max-width: 1158px;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid red;
 }
 
 
@@ -75,6 +75,7 @@ body {
     padding-top: 24px;
     padding-bottom: 24px;
     justify-content: space-between;
+    border-bottom: 1px solid color var(--cornflower);
 }
 
 .header-navigation {
@@ -124,7 +125,8 @@ body {
     background: var(--navyblue);
 }
     .hero-container {
-        padding: 188px  292px;
+        padding-top: 188px;
+        padding-bottom: 292px;
         margin: 0 auto;
     }
 
@@ -136,7 +138,7 @@ body {
         line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
-        min-width: 496px;
+        max-width: 496px;
         margin: 0 auto;
         margin-bottom: 48px;
 }
@@ -152,6 +154,10 @@ body {
         display: block;
         padding: 16px 32px;
         margin: 0 auto;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -163,6 +169,7 @@ body {
 .advantages {
     margin:0 0;
     padding-top: 120px;
+    padding-bottom: 120px;
 
 }
 
@@ -200,7 +207,7 @@ body {
 
 
 .products {
-    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .products-title {
