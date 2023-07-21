@@ -355,9 +355,11 @@ background-color: var(--cloud);
 
 .portfolio-item {}
 
-.portfolio-projects-text {
+.project-text-block {
+    padding: 32px 16px;
+}
 
-padding: 32px 16px;
+.portfolio-projects-text {
 }
 
     .portfolio-projects-titles {
