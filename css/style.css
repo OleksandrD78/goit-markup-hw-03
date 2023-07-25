@@ -70,9 +70,7 @@ body {
 /**---------------HEADER----------------*/
 
 .header {
-
-    border-bottom: 1px solid color var(--cornflower);
-
+    border-bottom: 1px solid var(--cornflower);
 }
 
 .header-container {
@@ -80,8 +78,6 @@ body {
     align-items: center;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 24px;
-    padding-bottom: 24px;
     justify-content: space-between;
     
 }
@@ -89,6 +85,7 @@ body {
 .header-navigation {
     display: flex;
     align-items: center;
+    padding: 24px 0;
 }
 
 .header-menu {
@@ -131,10 +128,10 @@ body {
 /**---------------HERO----------------*/
 .hero {   
     background: var(--navyblue);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
-    .hero-container {
-        padding-top: 188px;
-        padding-bottom: 188px;
+    .hero-container {        
         margin: 0 auto;
     }
 
@@ -247,6 +244,7 @@ body {
 
 .team {
 background-color: var(--cloud);
+padding: 120px 0;
 }
 
 .teaam-container {
@@ -260,17 +258,14 @@ background-color: var(--cloud);
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: 0.02em;
-        text-transform: capitalize;
-        padding-top: 120px;
+        text-transform: capitalize;        
         margin-bottom: 72px;
 }
 
 .team-list {
     display: flex;
-    gap: 24px;
-    padding-bottom: 120px;
-    
-}
+    gap: 24px; 
+    }
 
 .list {}
 
@@ -309,19 +304,21 @@ padding: 32px 0;
 .footer {
     background-color: var(--navyblue);
     padding-top: 101.5px;
-    padding-bottom: 100px;
+    padding: 100px 0;
     display: flex;
     margin: 0 0;
 }
 
 .footer-logo {
+        display: inline-block;
         color: var(--iris);
         font-size: 18px;
         font-family: Raleway, sans-serif;
         font-weight: 800;
         line-height:1.17;
         letter-spacing: 0.03em;
-        text-transform: uppercase;        
+        text-transform: uppercase; 
+        margin-bottom: 16px;       
 }
 
 
