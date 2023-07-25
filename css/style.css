@@ -302,8 +302,7 @@ padding: 32px 0;
 /**---------------FOOTER----------------*/
 
 .footer {
-    background-color: var(--navyblue);
-    padding-top: 101.5px;
+    background-color: var(--navyblue);    
     padding: 100px 0;
     display: flex;
     margin: 0 0;
@@ -332,7 +331,6 @@ padding: 32px 0;
         line-height: 1.5;
         letter-spacing: 0.02em;
         max-width: 264px;
-        margin-top: 17.5px;
 }
 
 /**---------------PORTFOLIOPROJECTS----------------*/
