@@ -341,12 +341,11 @@ padding: 32px 0;
 }
 
 .projects-list {
-    display: flex;
-    padding-top: 96px;
-    padding-bottom: 84px;
+    display: flex;    
     margin: 0 auto;
     justify-content: center;
-    gap: 24px;    
+    gap: 24px;
+    margin-bottom: 72px;  
 }
 
 .button-project {
