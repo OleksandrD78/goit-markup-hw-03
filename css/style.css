@@ -40,15 +40,20 @@ body {
     margin: 0 auto;
 }
 
-
-
 .visually-hidden {
     position: absolute;
-    clip: rect(1px, 1px, 1px, 1px);
     width: 1px;
     height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+
 .link {
     text-decoration: none;
 }
@@ -86,12 +91,15 @@ body {
 .header-navigation {
     display: flex;
     align-items: center;
-    padding: 24px 0;    
 }
 
 .header-menu {
     display: flex;
     gap: 40px;
+}
+
+.header-menu-item {
+    padding: 24px 0;
 }
 
 .header-menu-list {
