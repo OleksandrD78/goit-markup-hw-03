@@ -37,8 +37,7 @@ body {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
-    border: 1px solid red;
+    margin: 0 auto;    
 }
 
 .visually-hidden {
@@ -392,6 +391,7 @@ padding: 32px 0;
 .project-text-block {
     padding: 32px 16px;
     border: 1px solid var(--cornflower);
+    border-top: none;
 }
 
     .portfolio-projects-titles {
