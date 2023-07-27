@@ -98,9 +98,6 @@ body {
     gap: 40px;
 }
 
-.header-menu-item {
-    padding: 24px 0;
-}
 
 .header-menu-list {
     color: var(--navyblue);
@@ -108,7 +105,9 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
+
 .header-menu-list:hover,
 .header-menu-list:focus {
     color: var(--ocean);
