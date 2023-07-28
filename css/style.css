@@ -81,9 +81,6 @@ body {
 
 .header-container {
     display: flex;
-    align-items: center;
-    padding-left: 15px;
-    padding-right: 15px;
     justify-content: space-between;
     
 }
@@ -103,6 +100,7 @@ body {
     color: var(--navyblue);
     font-size: 16px;
     font-weight: 500;
+    display: block;
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
@@ -126,8 +124,10 @@ body {
 .contacts-item-link {
     color: var(--slate);
         font-size: 16px;
+        display: block;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        padding: 24px 0;
 }
 .contacts-item-link:hover,
 .contacts-item-link:focus {
@@ -312,8 +312,6 @@ padding: 32px 0;
 .footer {
     background-color: var(--navyblue);    
     padding: 100px 0;
-    display: flex;
-    margin: 0 0;
 }
 
 .footer-logo {
